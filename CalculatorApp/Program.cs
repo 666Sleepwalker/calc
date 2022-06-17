@@ -12,7 +12,7 @@ namespace CalculatorApp
 
         public double Minus(double a, double b)
         {
-            return a + b;
+            return a - b;
         }
         public double Multi(double a, double b)
         {

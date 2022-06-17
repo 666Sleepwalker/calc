@@ -115,19 +115,6 @@ namespace CalculatorTests
             Assert.AreEqual(6, res);
         }
 
-        [Test]
-        public void Average_1_2_3_4_5_6_Return3Dot5()
-        {
-            Calculator calc = new Calculator();
-
-            double[] array = new double[]
-            {
-                1,2,3,4,5,6
-            };
-
-            double res = calc.Average(array);
-
-            Assert.GreaterOrEqual(res, 3.5);
-        }
+       
     }
 }
