@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace CalculatorApp
 {
@@ -35,13 +36,8 @@ namespace CalculatorApp
 
         public double Average(double[] array)
         {
-            double sum = 0;
-
-            for (int i = 0; i < array.Length; i++)
-            {
-                sum += array[i];
-            }
-
+            double sum = array.Sum();
+                        
             return sum / array.Length;
         }
 
